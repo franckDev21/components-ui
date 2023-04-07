@@ -8,7 +8,7 @@ export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   isDisabled?: boolean;
   isInvalid?: boolean;
   isRequired?: boolean;
-  errorMessage?: string;
+  errorMessage?: string; 
 }
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
