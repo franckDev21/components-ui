@@ -3,6 +3,7 @@ import axios, { AxiosResponse } from 'axios';
 
 type Props = {
   endpoint: string;
+ 
 };
 
 const VideoUploader: React.FC<Props> = ({ endpoint }) => {
