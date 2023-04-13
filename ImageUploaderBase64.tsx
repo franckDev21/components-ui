@@ -17,7 +17,7 @@ const ImageUploaderBase64: React.FC<Props> = ({ onUpload , message = '', classNa
       const reader = new FileReader();
       reader.onloadend = () => {
         newImages.push(reader.result as string);
-        setImages([...images, ...newImages]);
+        setImages([...images, ...newImages]);  
         onUpload([...images, ...newImages]); 
       };
       reader.readAsDataURL(file);
@@ -79,3 +79,4 @@ const ImageUploaderBase64: React.FC<Props> = ({ onUpload , message = '', classNa
 };
 
 export default ImageUploaderBase64;
+
