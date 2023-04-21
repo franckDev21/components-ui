@@ -2,7 +2,7 @@ import React, { forwardRef, InputHTMLAttributes } from 'react';
 import classNames from 'classnames';
 
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  containerClassName?: string;
+  containerClassName?: string;  
   inputClassName?: string;
   label?: string;
   isDisabled?: boolean;
