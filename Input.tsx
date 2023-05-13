@@ -7,7 +7,7 @@
     inputClassName?: string;
     label?: string;
     isDisabled?: boolean;
-    isInvalid?: boolean;
+    isInvalid?: boolean;   
     isRequired?: boolean;
     errorMessage?: string; 
     handleChange?: (e:ChangeEvent<HTMLInputElement>) => any;
