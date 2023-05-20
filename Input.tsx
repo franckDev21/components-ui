@@ -6,7 +6,7 @@
     containerClassName?: string;  
     inputClassName?: string;
     label?: string;
-    isDisabled?: boolean;
+    isDisabled?: boolean; 
     isInvalid?: boolean;   
     isRequired?: boolean;
     errorMessage?: string; 
