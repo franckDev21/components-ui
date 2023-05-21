@@ -6,7 +6,6 @@ interface Props {
   fileUrl: string;
 }
 
-
 const PDFPreviewer: React.FC<Props> = ({ fileUrl }) => {
   const [numPages, setNumPages] = useState<number | null>(null);
   const [pageNumber, setPageNumber] = useState(1);
